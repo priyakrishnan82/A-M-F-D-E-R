@@ -1,17 +1,12 @@
 
 install.packages("ggplot2")
-
 library(ggplot2)
-
-setwd("/Users/priyakrishnan/Library/CloudStorage/Dropbox/PhD/Others/Applied-Methods-for-Digital-Economy-Research/A-M-F-D-E-R/Test")
-
-# load("")
 
 install.packages("data.table")
 library(data.table)
 
+setwd("/Users/priyakrishnan/Library/CloudStorage/Dropbox/PhD/Others/Applied-Methods-for-Digital-Economy-Research/A-M-F-D-E-R/Test")
 load("/Users/priyakrishnan/Library/CloudStorage/Dropbox/PhD/Others/Applied-Methods-for-Digital-Economy-Research/1/Prep/ceosal.RData")
-
 
 dt.ceo.salaries <- data.table(data)
 
