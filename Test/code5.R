@@ -48,5 +48,42 @@ m.sales <- lm(sales ~ advertising, data=dt.sales)
 
 summary(lm.sales)
 
+# regression another option
 stargazer(lm.sales, type = "text")
+
+# parameters of the reg equation
+
+
+coeffs = coefficients(lm.sales)
+coeffs
+
+
+# Plot
+
+ggplot(data = dt.sales,
+       aes(x = advertising, y = sales)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  theme_bw() +
+  labs(x = "advertising dollars", y = "sales dollars")
+
+# obtain predicted sales
+
+advertising = 100
+sales = coeffs[1] + coeffs[2]*advertising
+sales
+
+# or
+
+
+my.budget = data.table(advertising=100)
+
+predict(lm.sales, my.budget)
+
+# with CI
+
+predict(lm.sales, my.budget, interval="predict")
+
+
+
 
