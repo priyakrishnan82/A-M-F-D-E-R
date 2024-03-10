@@ -30,17 +30,20 @@ ii. If no, compute the bias (analytically) and estimate the bias using R.
 Please see the Session3.R
 
 5.) Follow all the other steps in the slide deck.
+
 a. Example 1 What type of endogeneity does this example highlight?
 Ommitted variable
+
 b. Example 2: What type of endogeneity does this example highlight?
 Ommitted variable
 
 6.) Which source of Endogeneity do you consider to be the largest problem for your work. Explain why?
-Probably Measurement Error: In my research, the effect I am trying to find is very specific to memory and has to disaccociate from cognition (or processing). The two are notoriously difficult to disassociate and a study must measure memory without confounding with measuring cognition. 
+
+Probably Measurement Error: In my research, the effect I am trying to find is very specific to memory and has to be disaccociated from cognition (or processing). The two are notoriously difficult to disassociate and my study must measure memory without measuring cognition.
 
 
 Task 2:
 
 Visit at least 2 (better 3) blogs of your colleagues and comment on their home-assignment work. Ideally ask them a question.
 
-DONE
+Done
