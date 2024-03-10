@@ -1,0 +1,46 @@
+Task 1: 
+
+1.) What are the 4 main sources of endogeneity.
+
+1. Omitted Variable
+2. Simultaneity 
+3. Selection bias 
+4. Measurement error
+
+
+2.) Provide a formal definition of Selection Bias, and show how it arises when (naively) comparing outcomes from two groups that are drawn from different populations.
+
+Selection bias is a distortion is measuring the association of dependent and independent variables, due to a sample selection that dies not accurately reflect the population. For example, if we wanted to measure the incidence of drug use among the population and we procured a sample from a vulnerable neighborhood, where drug use might be higher than the population, we would be making an error in selection. 
+
+3.) Derive the bias that results from omitting x2 in the model y = b1x1 + b2x2 + u?
+
+The bias can be expressed as the difference between the estimated coefficient in the reduced model and the true coefficient: Bias = b hat 1 – b1. If there is no omitted variable bias, the estimate b hat 1  should be an unbiased estimator of b1. However, if x2  is correlated with both x1 and the error term (u), omitting x2  can lead to biased estimates. In this case, the omitted variable bias can be expressed as: COV (x1,x2)* ((Var x2)^-1)*COV(x2,u).
+
+
+4.) Simulate:
+a. Do the simulations that are shown from page 20 onwards to illustrate OVB.
+i. Can you replicate the bias?
+b. Instead of simply copying everything, try to center x2 around 1.33*x1.
+i. Can you predict/compute the bias you will get now?
+ii. What bias do you get?
+c. Instead of omitting x2, try omitting x1. Can you estimate x2 without bias?
+i. If yes provide the coefficient estimate and compute the confidence interval.
+ii. If no, compute the bias (analytically) and estimate the bias using R.
+
+Please see the Session3.R
+
+5.) Follow all the other steps in the slide deck.
+a. Example 1 What type of endogeneity does this example highlight?
+Ommitted variable
+b. Example 2: What type of endogeneity does this example highlight?
+Ommitted variable
+
+6.) Which source of Endogeneity do you consider to be the largest problem for your work. Explain why?
+Probably Measurement Error: In my research, the effect I am trying to find is very specific to memory and has to disaccociate from cognition (or processing). The two are notoriously difficult to disassociate and a study must measure memory without confounding with measuring cognition. 
+
+
+Task 2:
+
+Visit at least 2 (better 3) blogs of your colleagues and comment on their home-assignment work. Ideally ask them a question.
+
+DONE
