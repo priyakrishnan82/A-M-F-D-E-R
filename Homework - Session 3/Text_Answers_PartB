@@ -4,9 +4,13 @@ A.) Now redo the proof, but assume E(u|X) = 0.65
 
 TBD
 
+
 B.) Write down all 4 sources of endogeneity.
 
-1. Omitted Variable; 2. Selection bias; 3. Measurement error; 4. Simultaneity. 
+1. Omitted Variable 
+2. Selection bias 
+3. Measurement error
+4. Simultaneity
 
 
 C.) Below is a Haiku that describes a situation where endogeneity biased the estimation result.
