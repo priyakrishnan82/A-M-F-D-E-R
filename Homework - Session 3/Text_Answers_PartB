@@ -1,0 +1,44 @@
+A.) Now redo the proof, but assume E(u|X) = 0.65
+ What bias do you get?
+ Proof you answer by showing it in the proof.
+
+TBD
+
+B.) Write down all 4 sources of endogeneity.
+
+1. Omitted Variable; 2. Selection bias; 3. Measurement error; 4. Simultaneity. 
+
+
+C.) Below is a Haiku that describes a situation where endogeneity biased the estimation result.
+Which source of endogeneity does it refer to?
+
+Selection bias.
+
+D.) Try to think of 2 (or up to 4 if you want to do one for each source) examples/regressions where an important source of endogeneity is likely to bias an OLS-estimation. Briefly describe it in a few lines. (hint: a Haiku (3 lines with 5-7-5 syllables; See below for an example) that describes it).
+
+1. Omitted Variable:
+Regressed English test score on age.
+Found that only few people learn quickly.
+But language spoken at home was forgotten.
+
+2. Selection bias:
+Regressed training on finding job
+Found that training leads to better job.
+But non-motivated didn't sign up for training.
+
+3. Measurement error:
+Regressed weight on health outcomes 
+Found that underweight didn't cause bad health.
+But the weighing machine was inaccurate.
+
+4. Simultaneity:
+Regressed drug use on depression.
+Found that drugs cause depression.
+But depression leads to drug-use.
+
+E.) Regression Exercises
+
+Please see Session3.R
+
+
+
