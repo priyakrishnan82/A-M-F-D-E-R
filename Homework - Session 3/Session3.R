@@ -10,9 +10,6 @@ library(MASS)
 #Homework
 #Part A
 
-library(MASS)
-library(stargazer)
-
 # Set seed for reproducibility
 set.seed(420711)
 
