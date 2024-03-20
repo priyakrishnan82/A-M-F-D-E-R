@@ -10,7 +10,7 @@ Task 1:
 
 2.) Provide a formal definition of Selection Bias, and show how it arises when (naively) comparing outcomes from two groups that are drawn from different populations.
 
-Selection bias is a distortion is measuring the association of dependent and independent variables, due to a sample selection that dies not accurately reflect the population. For example, if we wanted to measure the incidence of drug use among the population and we procured a sample from a vulnerable neighborhood, where drug use might be higher than the population, we would be making an error in selection. 
+Selection bias is a distortion is measuring the association of dependent and independent variables, due to a sample selection that does not accurately reflect the population. For example, if we wanted to measure the incidence of drug use among the population and we procured a sample from a vulnerable neighborhood, where drug use might be higher than the population, we would be making an error in selection. 
 
 3.) Derive the bias that results from omitting x2 in the model y = b1x1 + b2x2 + u?
 
@@ -47,3 +47,4 @@ Task 2:
 Visit at least 2 (better 3) blogs of your colleagues and comment on their home-assignment work. Ideally ask them a question.
 
 Done
+
