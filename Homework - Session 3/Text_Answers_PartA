@@ -14,7 +14,7 @@ Selection bias is a distortion is measuring the association of dependent and ind
 
 3.) Derive the bias that results from omitting x2 in the model y = b1x1 + b2x2 + u?
 
-The bias can be expressed as the difference between the estimated coefficient in the reduced model and the true coefficient: Bias = b hat 1 – b1. If there is no omitted variable bias, the estimate b hat 1  should be an unbiased estimator of b1. However, if x2  is correlated with both x1 and the error term (u), omitting x2  can lead to biased estimates. In this case, the omitted variable bias can be expressed as: COV (x1,x2)* ((Var x2)^-1)*COV(x2,u).
+The bias can be expressed as the difference between the estimated coefficient in the reduced model and the true coefficient: Bias = bhat1 – b1. If there is no omitted variable bias, the estimate bhat1  should be an unbiased estimator of b1. However, if x2  is correlated with both x1 and the error term (u), omitting x2  can lead to biased estimates. In this case, the omitted variable bias can be expressed as: COV (x1,x2)* ((Var x2)^-1)*COV(x2,u).
 
 
 4.) Simulate:
